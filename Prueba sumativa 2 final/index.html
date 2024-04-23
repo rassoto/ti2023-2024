@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="./scripts/boton.js"></script>
+
+    <title>INACAPLudi</title>
+</head>
+<div id="form">
+  <form id="call2action" onsubmit="return sendForm(this);">
+      <div>
+          <span><label for="form_name">Tu nombre:</label></span>
+          <span><input type="text" id="form_name" name="form_name"/></span>
+      </div>
+      <div>
+          <span><label for="form_email">Tu e-mail:</label></span>
+          <span><input type="text" id="form_email" name="form_email"/></span>
+      </div>
+      <div>
+          <span><label for="form_game">Me gusta jugar:</label></span>
+          <span>
+              <select id="form_game" name="form_game">
+                  <option value="">Selecciona el tipo de juego</option>
+                  <option value="de Cartas">Juegos de Cartas</option>
+                  <option value="Cooperativos">Juegos Cooperativos</option>
+                  <option value="Temáticos">Juegos Temáticos</option>
+                  <option value="de Estrategia">Juegos de Estrategia</option>
+                  <option value="de Aventura">Juegos de Aventura</option>
+                  <option value="de Acertijos">Juegos de Acertijos</option>
+                  <option value="Tradicionales">Juegos Tradicionales</option>
+                  <option value="de Rol">Juegos de Rol</option>
+              </select>
+          </span>
+      </div>
+      <div>
+          <span><button type="submit" name="submit">Enviar</button></span>
+      </div>
+  </form>    
+</div>
+<div id="gift" style="display: none;">
+  <p>
+      Gracias por enviarnos tus datos, <span id="contact_name" style="font-weight: bold;"></span>. 
+      Notamos que te apasionan los Juegos <span id="contact_game" style="font-weight: bold;"></span>. 
+      Nos contactaremos contigo a la brevedad usando tu dirección <span id="contact_email" style="font-weight: bold;"></span>.
+  </p>
+  <p>
+      Y no olvides que tenemos para tí un regalo por tu interés: 
+  </p>
+  <h2>
+      <a href="https://quejuegosdemesa.com/instrucciones/" target="_blank">
+          Descarga aquí instrucciones de juegos de mesa
+      </a>
+  </h2>
+</div>
+
+
+<header class="w3-display-container w3-wide bgimg bgimg1 w3-grayscale-min" id="home">
+    <div class="w3-display-middle w3-text-white w3-center">
+      <h1 style="color:tomato;" class="w3-black">¿Te gustarias ser parte de la comunidad de rol mas grande en INACAP?</h1>
+      <h2 class="w3-black">INACAPLUDI</h2>
+    </div>
+  </header>
+  
+  <!-- Navbar (sticky bottom) -->
+  <div class="w3-bottom w3-hide-small">
+    <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+      <a href="#home" style="width:25%" class="w3-bar-item w3-button">Titulo</a>
+      <a href="#us" style="width:25%" class="w3-bar-item w3-button">Invitacion</a>
+      <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Detalles</a>
+      <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Suscribete</a>
+    </div>
+  </div>
+  
+  <!-- About-->
+  <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+    <div class="w3-content">
+      <h1 class="w3-center w3-text-grey"><b>Si es asi te invitamos a embarcarte en esta aventura aprovechando esta oportunidad para demostrar tus conocimientos y tambien aprender del nivel mas basico.</b></h1>
+      <h3>Puedes participar en torneos y juegos para compartir, lo importante es que te diviertas mientras juegas con amigos, compañeros de universidad o desconocidos.</h3> 
+      <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Detalles</a></p>
+    </div>
+  </div>
+  
+  <!-- Background photo -->
+  <div class="w3-display-container bgimg bgimg2">
+    <div class="w3-display-middle w3-text-white w3-center">
+      <h1 class="w3-jumbo">No te lo pierdas!</h1><br>
+      <h2>Grandes Premios a la participacion</h2>
+    </div>
+  </div>
+  
+  <!-- Wedding information -->
+  <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+    <div class="w3-content">
+      <h1 class="w3-text-grey"><b>INACAPLUDI</b></h1>
+      <img class="w3-round-large w3-grayscale-min " src="images/no4.jpeg" style="width:100%;margin:64px 0">
+      <div class="w3-row">
+        <div class="w3-half">
+          <h2>Detalles del evento </h2>
+          <ul>
+            <li>Espacios en cada una de las sedes para realizar partidas, de cualquier tipo de juego, en horarios hábiles.</li>
+            <li>Charlas y talleres para toda la comunidad inacapina para que nos conozcan y aprendan estas prácticas sociales</li>
+            <li> Eventos por sede en donde podemos reunirnos como club y poder jugar libremente durante una jornada extraprogramática.</li>
+            <li>Ludoteca, lugar donde hemos podido reunir diferentes juegos y libros, que cada socio puede solicitar para usarse en la sede.</li>
+            <li>Eventos inter-sedes, ya sea regionales o nacionales, en donde contamos con la participación de cada uno de los clubes (un evento al año que comienza el viernes y termina el sábado por la noche).</li>
+           
+        </div>
+        <div class="w3-half">
+            <h2>Venta de Productos</h2>
+            <ul>
+               <p>Tiendas de ajedrez<br>
+               Tiendas de coleccionistas<br>
+               Venta de libros<br>
+               Venta de Cartas<br>
+               Venta de disfraces</p>
+            </ul>
+            <h2>Tipos de juegos</h2>
+            <p>Ajedrez<br>
+            Juegos de cartas<br>
+        juegos de mesa</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  
+  <!-- RSVP section -->
+   <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+    <h1>NO OLVIDES SUSCRIBIRTE!</h1>
+    <p class="w3-large">Recuerda que si te inscribes puedes jugar mas partidas que los demas<br>y tambien concursar por los distintos premios que se sortearan con tu correo inacap</p>
+    <p class="w3-xlarge">
+      <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Suscribete</button>
+    </p>
+  </div>
+  
+  <!-- RSVP modal -->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+      <div class="w3-container w3-white w3-center">
+        <h1 class="w3-wide">si te suscribes tendras mas intentos en cada juego</h1>
+        <p>Ingresa correo electronico</p>
+        <form>
+          <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+        </form>
+        <p><i>Gracias por suscribirte</i></p>
+        <div class="w3-row">
+          <div class="w3-half">
+            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Enviar</button>
+          </div>
+          <div class="w3-half">
+            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">No enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+body,h1,h2{font-family: "Raleway", sans-serif, }
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background: -o-repeating-linear-gradient();
+}
+.bgimg1 {background-image: url("../images/logo.jpg")}
+.bgimg2 {background-image: url("../images/mapache-pedro.gif")}
+.bgimg3 {background-image: url("../images/tenor\ \(2\).gif");}
